@@ -4,6 +4,7 @@ Uma API java criada para o bootcamp do Bradesco em parceria com a [dio.me](https
 
 ## Diagrama de Classes (Domínio da API)
 
+```mermaid
 classDiagram
   class User {
     -String name
@@ -39,3 +40,4 @@ classDiagram
   User "1" *-- "N" Feature
   User "1" *-- "1" Card
   User "1" *-- "N" News
+```
