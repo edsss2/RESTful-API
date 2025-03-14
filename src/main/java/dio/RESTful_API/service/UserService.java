@@ -1,6 +1,6 @@
-package service;
+package dio.RESTful_API.service;
 
-import domain.model.User;
+import dio.RESTful_API.domain.model.User;
 
 public interface UserService {
 

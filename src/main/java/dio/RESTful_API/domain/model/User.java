@@ -1,8 +1,7 @@
-package domain.model;
+package dio.RESTful_API.domain.model;
 
 import java.util.List;
 
-import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -12,8 +11,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 
-@Entity(name = "user")
-@Schema(description = "Representação de um usuário")
+@Entity(name = "tb_user")
 public class User {
 	
 	@Id

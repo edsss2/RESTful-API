@@ -1,12 +1,13 @@
-package service.impl;
+package dio.RESTful_API.service.impl;
 
 import java.util.NoSuchElementException;
 
 import org.springframework.stereotype.Service;
 
-import domain.model.User;
-import domain.repository.UserRepository;
-import service.UserService;
+import dio.RESTful_API.domain.model.User;
+import dio.RESTful_API.domain.repository.UserRepository;
+import dio.RESTful_API.service.UserService;
+
 
 @Service
 public class UserServiceImpl implements UserService {

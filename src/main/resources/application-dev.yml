@@ -8,6 +8,7 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: create # validate | update | create | create-drop
+      show-sql: true  # Loga as queries no console
     properties:
       hibernate:
         format_sql: true

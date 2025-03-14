@@ -1,4 +1,4 @@
-package domain.model;
+package dio.RESTful_API.domain.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
